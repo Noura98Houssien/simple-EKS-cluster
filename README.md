@@ -1,3 +1,8 @@
+## Scope
+This module creates a simple EKS cluster with basic requirements as in the [AWS documentation](https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html) using infrastructure as a code tool [Terraform](https://www.terraform.io/)
+## Getting started
+
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
@@ -57,3 +62,5 @@
 | <a name="output_identity"></a> [identity](#output\_identity) | Attribute block containing identity provider information for your cluster |
 | <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | ID of the VPC associated with your cluster. |
 <!-- END_TF_DOCS -->
+
+## License
