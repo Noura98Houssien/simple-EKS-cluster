@@ -1,7 +1,7 @@
 ## Scope
 This module creates a simple EKS cluster with basic requirements as in the [AWS documentation](https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html) using infrastructure as a code tool [Terraform](https://www.terraform.io/)
 ## Getting started
-
+have a look at [simple eks cluster](https://github.com/Noura98Houssien/simple-EKS-cluster/blob/master/examples/public-eks-cluster.tf) at example folder.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -64,3 +64,4 @@ This module creates a simple EKS cluster with basic requirements as in the [AWS 
 <!-- END_TF_DOCS -->
 
 ## License
+[GNU General Public License v3.0](https://github.com/Noura98Houssien/simple-EKS-cluster/blob/master/LICENSE)
