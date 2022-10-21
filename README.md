@@ -1,7 +1,36 @@
 ## Scope
 This module creates a simple EKS cluster with basic requirements as in the [AWS documentation](https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html) using infrastructure as a code tool [Terraform](https://www.terraform.io/)
 ## Getting started
-have a look at [simple eks cluster](https://github.com/Noura98Houssien/simple-EKS-cluster/blob/master/examples/public-eks-cluster.tf) at example folder.
+
+There are two ways to use this module 
+
+**The first way:**
+
+1- `git clone https://github.com/Noura98Houssien/simple-EKS-cluster.git`
+
+2- create a file with name terraform.tfvars and copy past the values as in [terraform.tfvars.tmpl](https://github.com/Noura98Houssien/simple-EKS-cluster/blob/master/examples/terraform.tfvars.tmpl) in example folder
+```
+vpc_name       = "my-VPC1"
+vpc_cidr       = "10.0.0.0/16"
+cluster_name   = "my-EKS1"
+desired_size   = 2
+max_size       = 2
+min_size       = 1
+instance_types = ["t3.medium"]
+
+```
+3- `terraform init`
+
+4- `terraform plan`
+
+5- `terraform apply`
+
+
+**The second way:**
+
+You need to specify a required version and include that call in your code as [simple-eks-cluster.tf](https://github.com/Noura98Houssien/simple-EKS-cluster/blob/master/examples/public-eks-cluster.tf) at example folder.
+
+
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
