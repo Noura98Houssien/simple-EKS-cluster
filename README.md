@@ -28,7 +28,20 @@ instance_types = ["t3.medium"]
 
 **The second way:**
 
-You need to specify a required version and include that call in your code as [simple-eks-cluster.tf](https://github.com/Noura98Houssien/simple-EKS-cluster/blob/master/examples/public-eks-cluster.tf) at example folder.
+You need to replace vx.x.x with a required version and include that call in your code as [simple-eks-cluster.tf](https://github.com/Noura98Houssien/simple-EKS-cluster/blob/master/examples/public-eks-cluster.tf) at example folder.
+
+```
+module "public_eks_cluster" {
+  # note update the source link with the required version
+  source         = "git::https://github.com/Noura98Houssien/simple-EKS-cluster.git?ref=vx.x.x"
+  vpc_name       = "my-VPC1"
+  cluster_name   = "my-EKS1"
+  desired_size   = 2
+  max_size       = 2
+  min_size       = 1
+  instance_types = ["t3.medium"]
+}
+```
 
 
 
