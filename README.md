@@ -1,5 +1,7 @@
 ## Scope
-This module creates a simple EKS cluster with basic requirements as in the [AWS documentation](https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html) using infrastructure as a code tool [Terraform](https://www.terraform.io/)
+This module creates a simple EKS cluster with basic requirements as in the [AWS documentation](https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html) using infrastructure as a code tool [Terraform](https://www.terraform.io/) 
+
+To know more please visit [my artecl](https://dev.to/aws-builders/create-a-simple-eks-cluster-394a) on dev.io I explaned how to ceate a public eks cluster in more details 
 ## Getting started
 
 There are two ways to use this module 
