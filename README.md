@@ -10,7 +10,9 @@ There are two ways to use this module
 
 1- `git clone https://github.com/Noura98Houssien/simple-EKS-cluster.git`
 
-2- create a file with name terraform.tfvars and copy past the values as in [terraform.tfvars.tmpl](https://github.com/Noura98Houssien/simple-EKS-cluster/blob/master/examples/terraform.tfvars.tmpl) in example folder
+2- `cd simple-EKS-cluster `
+
+3- create a file with name terraform.tfvars and copy past the values as in [terraform.tfvars.tmpl](https://github.com/Noura98Houssien/simple-EKS-cluster/blob/master/examples/terraform.tfvars.tmpl) in example folder
 ```
 vpc_name       = "my-VPC1"
 vpc_cidr       = "10.0.0.0/16"
