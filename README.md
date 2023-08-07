@@ -1,7 +1,7 @@
 ## Scope
 This module creates a simple EKS cluster with basic requirements as in the [AWS documentation](https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html) using infrastructure as a code tool [Terraform](https://www.terraform.io/) 
 
-To know more please visit [my article](https://dev.to/aws-builders/create-a-simple-eks-cluster-394a) on dev.io I explaned how to ceate a public eks cluster in more details 
+To know more please visit [my article](https://dev.to/aws-builders/create-a-simple-eks-cluster-394a) on dev.io I explained how to create a public EKS cluster in more detail 
 ## Getting started
 
 There are two ways to use this module 
@@ -12,7 +12,7 @@ There are two ways to use this module
 
 2- `cd simple-EKS-cluster `
 
-3- create a file with name terraform.tfvars and copy past the values as in [terraform.tfvars.tmpl](https://github.com/Noura98Houssien/simple-EKS-cluster/blob/master/examples/terraform.tfvars.tmpl) in example folder
+3- create a file with the name terraform.tfvars and copy past the values as in [terraform.tfvars.tmpl](https://github.com/Noura98Houssien/simple-EKS-cluster/blob/master/examples/terraform.tfvars.tmpl) in the example folder
 ```
 vpc_name       = "my-VPC1"
 vpc_cidr       = "10.0.0.0/16"
